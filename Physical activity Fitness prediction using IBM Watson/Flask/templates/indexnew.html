@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="../static/css/demo1.css">
+</head>
+
+<body>
+<center>
+
+  <div>
+
+    <div class="h-container">
+
+      <h1 class="heading">Body Fitness Prediction</h1>
+
+      <p class="para">A machine learning Web App, Built with Flask</p>
+    </div>
+      <form action="/predict" method="post">
+		  <label for = "Your mood sad">Your mood sad</label>
+		<select id = "100" name= "Your mood sad">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</select><br><br>
+			 <label for = "Your mood neutral">Your mood neutral</label>
+		<select id = "200" name= "Your mood neutral">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</select><br><br>
+			 <label for = "Your mood happy ">Your mood happy</label>
+		<select id = "300" name= "Your mood happy">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</select><br><br>
+		  Enter the step counts : <input type="number" name="t1"><br><br>
+		Enter the calories_burned : <input type="number" name="t2"><br><br>
+		Enter the hours of sleep : <input type="number" name="t3"><br><br>
+		Enter your weight in kg : <input type="number" name="t4"><br><br>
+		  <input type="submit" value ="predict"/></form>
+
+
+
+  </div>
+</center>
+
+</body>
+
+</html>

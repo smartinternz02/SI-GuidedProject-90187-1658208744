@@ -1,0 +1,58 @@
+.bg-container{
+
+    background-image : url("https://images.everydayhealth.com/images/ra-stregth-training-ways-to-make-exercise-fun-1440x810.jpg");
+
+    background-color: black;
+
+    margin: 15px;
+
+    background-size: cover;
+
+    height: 85vh;
+
+    width: 97vw;
+
+    border-color: black;
+
+    border-width: 3px;
+
+}
+
+.top-para{
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+    color:aqua;
+
+}
+
+.direct{
+
+    display: flex;
+
+    justify-content: end;
+
+}
+
+.main-heading{
+
+    text-align:center;
+
+
+}
+
+.bottom-para{
+
+    font-family: "Caveat";
+    font-size:18px;
+
+}
+
+
+
+
+
+
+
